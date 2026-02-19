@@ -81,10 +81,23 @@ This repository was created after auditing links from the original [`thibmaek/aw
 - [RaspAP](https://github.com/RaspAP/raspap-webgui) - Turn Raspberry Pi into a router/AP.
 - [PiVPN](https://github.com/pivpn/pivpn) - Simplified VPN server setup.
 - [Navidrome](https://github.com/navidrome/navidrome) - Personal music streaming server.
+- [Jellyfin](https://jellyfin.org/) - Open source media server.
 - [Screenly Anthias](https://github.com/Screenly/Anthias) - Open source digital signage.
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma) - Self-hosted service monitoring.
 - [Gogs](https://github.com/gogs/gogs) - Lightweight self-hosted Git service.
 - [ShellHub](https://github.com/shellhub-io/shellhub) - Centralized remote SSH access.
+
+### Media Automation Stack (*arr)
+
+- [Sonarr](https://sonarr.tv/) - TV series collection manager.
+- [Radarr](https://radarr.video/) - Movie collection manager.
+- [Prowlarr](https://prowlarr.com/) - Indexer manager for Sonarr/Radarr/Lidarr/Readarr.
+- [Lidarr](https://lidarr.audio/) - Music collection manager.
+- [Readarr](https://readarr.com/) - Book and audiobook collection manager.
+- [Bazarr](https://bazarr.media/) - Subtitle manager for Sonarr and Radarr.
+- [Overseerr](https://overseerr.dev/) - Request management front-end for Plex/Jellyfin/Emby.
+- [qBittorrent](https://github.com/qbittorrent/qBittorrent) - BitTorrent client used in many Pi media stacks.
+- [Jackett](https://github.com/Jackett/Jackett) - Legacy indexer proxy still used in some setups.
 
 ## Media, Display & Creative Projects
 
