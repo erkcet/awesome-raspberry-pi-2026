@@ -1,36 +1,34 @@
-# Awesome Raspberry Pi (2026 Refresh)
+# Awesome Raspberry Pi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<a href="https://www.raspberrypi.com"><img src="media/raspberry-pi-logo.png" alt="Raspberry Pi Logo" align="right" height="100"></a>
 
-A curated, actively-maintained list of Raspberry Pi operating systems, tools, projects, and learning resources.
+> A curated list of Raspberry Pi operating systems, tools, projects, and learning resources.
 
-This repository was created after auditing links from the original [`thibmaek/awesome-raspberry-pi`](https://github.com/thibmaek/awesome-raspberry-pi) and re-curating entries toward still-active, high-signal sources as of **2026-02-19**.
+The [Raspberry Pi](https://www.raspberrypi.com) is a series of small single-board computers developed by the Raspberry Pi Foundation, widely used for education, IoT, home automation, media servers, and hobbyist projects.
 
 ## Contents
 
 - [Models](#models)
-- [Operating Systems & Images](#operating-systems--images)
+- [Operating Systems](#operating-systems)
 - [Imaging & Provisioning Tools](#imaging--provisioning-tools)
-- [Core Libraries & Dev Tooling](#core-libraries--dev-tooling)
-- [Self-Hosted & Infra Projects](#self-hosted--infra-projects)
-- [Media, Display & Creative Projects](#media-display--creative-projects)
-- [Hardware, GPIO & Embedded](#hardware-gpio--embedded)
+- [Libraries & Dev Tools](#libraries--dev-tools)
+- [Self-Hosted & Infrastructure](#self-hosted--infrastructure)
+- [Media & Creative](#media--creative)
+- [Hardware & GPIO](#hardware--gpio)
 - [Networking & Security](#networking--security)
 - [Learning Resources](#learning-resources)
 - [Community](#community)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Models
 
-- [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/)
-- [Raspberry Pi 500](https://www.raspberrypi.com/products/raspberry-pi-500/)
-- [Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
-- [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
-- [Compute Module 5](https://www.raspberrypi.com/products/compute-module-5/)
-- [Raspberry Pi Pico 2](https://www.raspberrypi.com/products/raspberry-pi-pico-2/)
+- [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) - Flagship board with 2.4 GHz quad-core Arm Cortex-A76 and PCIe 2.0.
+- [Raspberry Pi 500](https://www.raspberrypi.com/products/raspberry-pi-500/) - Pi 5 built into a keyboard form factor.
+- [Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) - Previous-generation board with dual micro-HDMI and USB 3.0.
+- [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) - Compact board with quad-core 64-bit Arm and Wi-Fi.
+- [Compute Module 5](https://www.raspberrypi.com/products/compute-module-5/) - Pi 5 in a compact module for embedded and industrial use.
+- [Raspberry Pi Pico 2](https://www.raspberrypi.com/products/raspberry-pi-pico-2/) - Microcontroller board based on the RP2350 chip.
 
-## Operating Systems & Images
+## Operating Systems
 
 - [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) - Official OS for Raspberry Pi.
 - [Ubuntu for Raspberry Pi](https://ubuntu.com/download/raspberry-pi) - Ubuntu Server/Desktop images.
@@ -60,7 +58,7 @@ This repository was created after auditing links from the original [`thibmaek/aw
 - [PiKISS](https://github.com/jmcerrejon/PiKISS) - Utility and installer script collection.
 - [Pi-Apps](https://github.com/Botspot/pi-apps) - Community app installer for Raspberry Pi OS.
 
-## Core Libraries & Dev Tooling
+## Libraries & Dev Tools
 
 - [GPIO Zero](https://github.com/gpiozero/gpiozero) - Beginner-friendly GPIO library.
 - [pigpio](https://github.com/joan2937/pigpio) - Fast GPIO and peripheral control.
@@ -71,7 +69,7 @@ This repository was created after auditing links from the original [`thibmaek/aw
 - [Arduino-Pico Core](https://github.com/earlephilhower/arduino-pico) - Arduino core for RP2040/RP2350 boards.
 - [k3sup](https://github.com/alexellis/k3sup) - Fast K3s bootstrap for Pi clusters.
 
-## Self-Hosted & Infra Projects
+## Self-Hosted & Infrastructure
 
 - [Pi-hole](https://github.com/pi-hole/pi-hole) - DNS sinkhole and ad blocker.
 - [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) - DNS filtering and parental controls.
@@ -99,17 +97,15 @@ This repository was created after auditing links from the original [`thibmaek/aw
 - [qBittorrent](https://github.com/qbittorrent/qBittorrent) - BitTorrent client used in many Pi media stacks.
 - [Jackett](https://github.com/Jackett/Jackett) - Legacy indexer proxy still used in some setups.
 
-## Media, Display & Creative Projects
+## Media & Creative
 
 - [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) - Smart mirror platform.
 - [Raspotify](https://github.com/dtcooper/raspotify) - Spotify Connect client.
 - [rpi-rgb-led-matrix](https://github.com/hzeller/rpi-rgb-led-matrix) - High-performance RGB matrix control.
 - [InkyPi](https://github.com/fatihak/InkyPi) - E-ink dashboard framework.
 - [Sonic Pi](https://github.com/sonic-pi-net/sonic-pi) - Live coding music environment.
-- [Moode Audio](https://moodeaudio.org/) - Audio player distro and web UI.
-- [Volumio](https://volumio.com/) - Streaming-focused media OS.
 
-## Hardware, GPIO & Embedded
+## Hardware & GPIO
 
 - [Official Raspberry Pi Documentation](https://github.com/raspberrypi/documentation) - Hardware, software, and tutorials.
 - [Raspberry Pi Pinout](https://pinout.xyz/) - GPIO pin reference.
@@ -121,7 +117,6 @@ This repository was created after auditing links from the original [`thibmaek/aw
 
 ## Networking & Security
 
-- [OpenWrt](https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi) - Router-focused Linux distribution.
 - [WireGuard](https://www.wireguard.com/) - Modern VPN protocol.
 - [Tailscale on Raspberry Pi](https://tailscale.com/kb/1114/pi) - Simple zero-config mesh networking.
 - [cloudflared](https://github.com/cloudflare/cloudflared) - Tunnel local services securely.
@@ -161,8 +156,4 @@ This repository was created after auditing links from the original [`thibmaek/aw
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## License
-
-[CC0 1.0](LICENSE)
+Contributions welcome! Read the [contribution guidelines](contributing.md) first.
