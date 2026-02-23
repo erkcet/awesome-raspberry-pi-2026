@@ -1,4 +1,4 @@
-# Awesome Raspberry Pi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Raspberry Pi [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <a href="https://www.raspberrypi.com"><img src="media/raspberry-pi-logo.png" alt="Raspberry Pi Logo" align="right" height="100"></a>
 
